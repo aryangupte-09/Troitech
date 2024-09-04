@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>TroitTech </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: TroitTech
+  * Template URL: https://bootstrapmade.com/TroitTech-free-multipurpose-one-page-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+      </a>
+      
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/index.html" class="active">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+         <!-- <li><a href="/portfolio.html">Portfolio</a></li>-->
+          <li><a href="/index.html#team">Team</a></li>
+         <!--   <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>-->
+          <li><a href="/index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+     <a href="https://wa.me/+919560132345"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.facebook.com/share/gwMw75jvi7bRTTGY/?mibextid=qi2Omg" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/troittech?igsh=MTEyeWVxemJ2MWQyMA==" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/troittech-inc/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+   <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
+            <h2><span>Welcome to </span><span class="underlight">TroitTech</span> </h2>
+            <p>At TroitTech, our consulting services are designed to drive your business forward with strategic insights and expert guidance</p>
+            <a href="/about.html" class="btn-get-started">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section --> 
+
+
+
+
+    <!-- Clients Section -->
+
+    <section id="clients" class="clients section">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/vendor-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+<!-- /Team Section -->
+  
+<section id="team" class="team section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Team</h2>
+    <p>Meet the professionals behind our success</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Naveen Sarpal"></div>
+          <div class="member-info">
+            <h4>Naveen Sarpal</h4>
+            <span>Co-Founder</span>
+            <p>Naveen Sarpal is a visionary leader with over 20 years of experience in technology and business development. As Co-Founder of TroitTech, he has been instrumental in driving the company’s strategic growth and innovation. Naveen's deep expertise in launching successful projects and leading high-performing teams has been pivotal in achieving TroitTech's mission and goals. His leadership ensures that TroitTech remains at the forefront of industry advancements, consistently delivering value and excellence.
+            </p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/naveensarpal"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Parth Maheshwari"></div>
+          <div class="member-info">
+            <h4>Parth Maheshwari</h4>
+            <span>Head of Information Technology</span>
+            <p>Parth Maheshwari is the Head of Information Technology with 5 years of experience in driving tech innovation. He specializes in IT management, implementing solutions that enhance efficiency and security. Parth’s leadership ensures seamless operations and cutting-edge technology integration. His strategic vision keeps our IT infrastructure robust and future-ready. Parth is committed to advancing technology to support the company’s growth</p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     
+      
+
+
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt="Shreyash Bhagat"></div>
+          <div class="member-info">
+            <h4>Shreyash Bhagat </h4>
+            <span>Head of Creative and Marketing</span>
+            <p>Shreyash Bhagat is the Head of Creative and Marketing with 3 years of experience in driving impactful campaigns. He excels in brand development, digital marketing, and creative direction. Shreyash is known for his innovative approach and keen eye for design. His work consistently connects brands with their target audiences. Shreyash's leadership ensures our projects are both visually compelling and strategically effective.</p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <!--   <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="team-member d-flex align-items-start">
+          <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt="Amanda Jepson"></div>
+          <div class="member-info">
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            <p>Ensuring financial accuracy and transparency in all company operations.</p>
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div><-->
+
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <div class="container">
+        <img src="assets/img/cta-bg.jpg" alt="">
+        <div class="content row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+            <!--  <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
+              <h3>Interested in our services?</h3>
+              <p>Get in touch with us at +91 76686 28401 / +91 95601 32345 | or email us at info@troittech.com</p>
+              <a class="cta-btn" href="mailto:sanchit@troittech.com">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+
+
+  
+
+
+    <!-- Pricing Section -->
+    <section id="team" class="team section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Reviews</h2>
+        <p>What people say about us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+             <!-- <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>-->
+              <div class="member-info">
+                <h4>Rahul Singh</h4>
+                <span>Raunak Group</span>
+                <p>
+                  Working with TroitTech has been a game-changer for our business. Their IT solutions streamlined our operations, resulting in significant cost savings. Their team's expertise and dedication to our success are truly commendable
+                  </p>
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+             <!-- <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>-->
+              <div class="member-info">
+                <h4>Sunita Mukherjee</h4>
+                <span>Incred Research</span>
+                <p>
+                  TroitTech's web development expertise took our online presence to a whole new level. They understood our vision and delivered a website that not only looks amazing but also functions seamlessly. Their professionalism and responsiveness made the entire process a breeze.
+                  </p>
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+             <!-- <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>-->
+              <div class="member-info">
+                <h4>Rohit Saraf</h4>
+                <span>Axis Bank</span>
+                <p>
+                  TroitTech's cybersecurity measures have provided us with a level of protection we didn't know was possible. Their proactive approach to identifying and mitigating potential threats has given us peace of mind. Their team is top-notch in the field.
+                  </p>
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+             <!-- <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>-->
+              <div class="member-info">
+                <h4>Neha Kashyap</h4>
+                <span> Kotak Mahindra Bank</span>
+                <p>
+                  We partnered with TroitTech for their SEO services, and the results were outstanding. Our online visibility and organic traffic saw a remarkable increase. Their strategies are not only effective but also adaptable to our changing needs. I highly recommend their SEO expertise.
+                  </p>
+               
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>We're here to assist you. Reach out to us with any inquiries.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="https://g.co/kgs/dmMgLf9" target="_blank"><i class="bi bi-geo-alt flex-shrink-0"></i></a>
+              <div>
+                <h3>Address</h3>
+                <p>Innov8 Regal Building, 69, Connaught Place, New Delhi - 110001</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+91 76686 28401</p>
+              </div>
+            </div><!-- End Info Item -->
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <a href="https://wa.me/+919560132345" target="_blank"> <i class="bi bi-whatsapp flex-shrink-0"></i></a>
+              <div>
+                <h3>Whatsapp</h3>
+                <p>+91 95601 32345</p>
+              </div>
+            </div><!-- End Info Item -->
+            
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@troittech.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+      
+
+    </section><!-- /Contact Section -->
+ <!-- WhatsApp Floating Icon -->
+   <a href="https://wa.me/+919560132345" class="whatsapp-icon" target="_blank" title="Chat with us on WhatsApp">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+   
+    <!--<div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">TroitTech</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Innov8 Regal Building, 69</p>
+            <p>Connaught Place, New Delhi - 110001</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 76686 28401 / +91 95601 32345</span></p>
+            <p><strong>Email:</strong> <span>info@troittech.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="/index.html">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/about.html">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="/services.html">Services</a></li>
+
+
+
+
+            <li><i class="bi bi-chevron-right"></i> <a href="/terms.html">Terms and Conditions </a></li>
+
+<li><i class="bi bi-chevron-right"></i> <a href="/policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service1.html">Performance Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service2.html">Social Media Marketing & Dashboard Analytics</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service3.html">Web & App Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service4.html">Graphic Designing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service5.html">Video Editing & YouTube Management</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service6.html">Cyber Security</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service7.html">Digital Strategy</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service8.html">Content Production</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/services/service9.html">Legal Services</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-2 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Stay connected with us for the latest updates</p>
+          
+          <div class="social-links d-flex">
+            <a href="https://wa.me/+919560132345"><i class="bi bi-whatsapp"></i></a>
+             <a href="https://www.facebook.com/share/gwMw75jvi7bRTTGY/?mibextid=qi2Omg" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/troittech?igsh=MTEyeWVxemJ2MWQyMA==" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/troittech-inc/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">TroitTech</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!--Developed by <a href="https://thedd.tech/">DDtech</a>-->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
